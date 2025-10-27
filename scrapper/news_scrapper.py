@@ -61,6 +61,7 @@ driver = webdriver.Chrome()
 
 try:
     print("bjadbvdasdasdasdasd")
+    print("for commmit 3")
     for url_obj in urls_with_selectors:
         url = url_obj['url']
         selectors = url_obj['selectors']
