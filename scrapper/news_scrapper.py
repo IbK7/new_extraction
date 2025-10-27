@@ -60,7 +60,6 @@ driver = webdriver.Chrome()
 driver = webdriver.Chrome()
 
 try:
-    print("balha balhadflhdsaklf sfd ")
     for url_obj in urls_with_selectors:
         url = url_obj['url']
         selectors = url_obj['selectors']
